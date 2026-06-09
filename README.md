@@ -1,4 +1,3 @@
-# ANN-Vds-Symmetric-FET-Model_ECE-228
 # ANN-Based Drain-Source Symmetric FET Model
 ## Reproduction + Improvement: Multi-Gate-Length Extension
 
@@ -6,7 +5,6 @@
 
 ---
 
-### README:
 #### Overview
 
 This notebook reproduces and extends the symmetric ANN-based FET model from Xu et al. (2007). The model learns to predict drain current Id from gate and drain voltages (Vgs, Vds) using a shared-weight neural network architecture that enforces exact drain-source symmetry by construction — meaning it accurately predicts Id-Vds behavior in both the positive and negative Vds regions while being trained only on Vds ≥ 0 data.
